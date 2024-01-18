@@ -25,10 +25,10 @@ class Classifier:
 
     def __init__(
         self,
-        n_estimators: Optional[int] = 250,
-        eta: Optional[float] = 0.3,
-        gamma: Optional[float] = 0.0,
-        max_depth: Optional[int] = 5,
+        n_estimators: Optional[int] = 200,
+        eta: Optional[float] = 0.5,
+        gamma: Optional[float] = 0.05,
+        max_depth: Optional[int] = 10,
         **kwargs,
     ):
         """Construct a new binary classifier.

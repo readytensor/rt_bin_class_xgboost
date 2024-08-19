@@ -2,5 +2,7 @@
   "n_estimators": 200,
   "eta": 0.5,
   "gamma": 0.05,
-  "max_depth": 10
+  "max_depth": 10,
+  "decision_threshold": 0.5,
+  "positive_class_weight": 1.0
 }
